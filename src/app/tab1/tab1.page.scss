@@ -1,0 +1,23 @@
+form {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+
+}
+#userlbl, #passlbl {
+    font-family:cursive;
+}
+#username, #password {
+    text-align: center;
+    border-radius: 10px;
+    height: 30px;
+    width: 250px;
+
+}
+input[type="text"]::placeholder {
+    text-align: center; 
+}
+input[type="password"]::placeholder {
+    text-align: center; 
+}
